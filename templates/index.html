@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    
+</head>
+<body>
+    <div>
+        <h1>Carousel BY MDB DOWNLOAD METHOD</h1>
+    </div>
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="{% static 'images/1.webp' %}"
+            alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Light mask</h3>
+          <p>Nature refers to the interaction between the physical surroundings around us and the life within it like atmosphere, climate, natural resources, ecosystem, flora, fauna, and humans. Nature is indeed God’s precious gift to Earth. It is the primary source of all the necessities for the nourishment of all living beings on Earth. Right from the food we eat, the clothes we wear, and the house we live in is provided by nature. Nature is called ‘Mother Nature’ because just like our mother, she is always nurturing us with all our needs. </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="{% static 'images/2.webp' %}"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Strong mask</h3>
+          <p>If not for nature then we wouldn’t be alive. The health benefits of nature for humans are incredible. The most important thing for survival given by nature is oxygen. The entire cycle of respiration is regulated by nature. The oxygen that we inhale is given by trees and the carbon dioxide we exhale is getting absorbed by trees. </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="{% static 'images/3.webp' %}"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Slight mask</h3>
+          <p>Nature provides us services round the clock: provisional services, regulating services, and non-material services. Provisional services include benefits extracted from nature such as food, water, natural fuels and fibres, and medicinal plants. Regulating services include regulation of natural processes that include decomposition, water purification, pollution, erosion and flood control, and also, climate regulation. Non-material services are the non-material benefits that improve the cultural development of humans such as recreation, creative inspiration from interaction with nature like art, music, architecture, and the influence of ecosystems on local and global cultures. </p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  
+<!-- script code -->
+<script src="{% static 'js/jquery.js' %}"></script>
+
+<script src="{% static 'js/popper.js' %}"></script>
+
+<script src="{% static 'js/bootstrap.js' %}"></script>
+
+<script src="{% static 'js/mdb.js' %}"></script>
+
+</body>
+</html>
